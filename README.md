@@ -1,13 +1,20 @@
-# CD Bites Cafe and Restaurant Project
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-This is a web project developed for a cafe and restaurant management system. 
-It features a modern interface to showcase menu items and navigation.
+# Run and deploy your AI Studio app
 
-## Key Features:
-- User-friendly navigation for restaurant menu.
-- Responsive design for multiple devices.
-- Integrated restaurant details and product showcasing.
+This contains everything you need to run your app locally.
 
-## Tech Stack:
-- Developed using Google AI Studio.
-- Web technologies (HTML/CSS/JS).# cd-bites-restaurant
+View your app in AI Studio: https://ai.studio/apps/8f8f5fc4-877b-4ebf-a294-d83f6331dd27
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
